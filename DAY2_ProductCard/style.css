@@ -1,0 +1,100 @@
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+img {
+    width: auto;
+}
+.image img{
+    border-radius: 18px;
+    max-width: 300px;
+    height: stretch;
+    mask-image: linear-gradient(
+        to right,
+        black 75%,
+        transparent 100%
+    );
+
+    -webkit-mask-image: linear-gradient(
+        to right,
+        black 75%,
+        transparent 100%
+    );
+    
+}
+
+.main {
+    background-color: bisque;
+    display: flex;
+    gap:30px;
+    max-width:900px;
+    border:2px solid black;
+    padding-right:20px;
+    border-radius: 20px;
+    justify-content: center;
+    max-height: 350px;
+}
+.main:hover {
+    border: 3px solid black;
+    opacity: 0.9;
+    transition: 250ms;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+.van {
+    background-color: wheat;
+}
+.lav {
+    background-color: lavender;
+}
+.soft {
+    background-color: rgb(249, 204, 149);
+}
+.bals{
+    background-color: rgb(141, 108, 48);
+    color:white;
+}
+.smell button {
+    padding:5px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+}
+
+.smell button:hover {
+    zoom:102%;
+    border: 2px solid black;
+    transition: 50ms;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 50px;
+}
+.ctr {
+    background-color: brown;
+    color:whitesmoke;
+    padding:7px;
+    border: 1px solid black;
+    border-radius:4px;
+}
+.ctr:hover {
+    opacity: 0.85;
+    transition:200ms;
+}
+.price {
+    margin-right:180px;
+}
+
+.only {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
