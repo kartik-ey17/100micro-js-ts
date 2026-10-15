@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Text Counter</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Character Counter</h1>
+        <textarea id="message" maxlength="200" placeholder="Type here..."></textarea>
+        <button id="copyButton">Copy Message</button>
+        <p id="copyStatus"></p>
+        <div class="counter">
+            <p id="charCount">0/200 characters</p>
+            <p id="remainCount">200 characters remaining.</p>
+        </div>
+        <p id="warn"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

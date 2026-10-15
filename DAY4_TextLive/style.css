@@ -1,0 +1,69 @@
+body {
+    background-color: grey;
+    margin:0;
+    padding: 40px 20px;
+}
+
+.main {
+    max-width: 500px;
+    margin: auto;
+    padding:25px;
+    background-color: aliceblue;
+    border-radius:10px;
+    box-shadow: 0 4px 12px #00000015;
+}
+h1 {
+    text-align: center;
+}
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height:150px;
+    padding:12px;
+    font:inherit;
+    resize:vertical;
+    border: 1px solid #c4c4c4;
+    border-radius:8px;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+    gap:12px;
+    font-size: 14px;
+}
+
+#charCount,
+#remainCount {
+    color: #555;
+}
+
+.counter.warning #charCount,
+.counter.warning #remainCount {
+    color: #d97706;
+    font-weight: bolder;
+}
+
+#warn {
+    color: #dc2626;
+    font-weight: bold;
+}
+#copyButton {
+    margin-top: 12px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#copyButton:hover {
+    background-color: #1d4ed8;
+}
+
+#copyStatus {
+    font-size: 14px;
+    color: #16a34a;
+}
